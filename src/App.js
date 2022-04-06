@@ -1,1 +1,9 @@
-export const App = () => <h1>React</h1>
+export const App = () =>{
+  // x = 1
+  return (
+    <article>
+      <h1>Framer Slider</h1>
+      <img src="" alt="" />
+    </article>
+  )
+}
