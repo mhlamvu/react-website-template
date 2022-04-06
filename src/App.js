@@ -1,8 +1,10 @@
+import { motion } from "framer-motion"
+
 export const App = () =>{
   // x = 1
   return (
     <article>
-      <h1>Framer Slider</h1>
+      <motion.h1 animate={{x: 100}}>Framer</motion.h1>
       <img src="" alt="" />
     </article>
   )
